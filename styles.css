@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background: #1a1a1a;
+    color: #eaeaea;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  .castle-header {
+    background: url('castle-background.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+  }
+  
+  .castle-header h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  .castle-header p {
+    font-size: 1.5em;
+  }
+  
+  /* Navigation */
+  .castle-nav {
+    background: #333;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .castle-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .castle-nav li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .castle-nav a {
+    color: #eaeaea;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+  }
+  
+  .castle-nav a:hover {
+    color: #ff6347;
+  }
+  
+  /* Main Sections */
+  .castle-main {
+    padding: 20px;
+  }
+  
+  .castle-main section {
+    margin-bottom: 40px;
+  }
+  
+  .castle-main h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #ff6347;
+  }
+  
+  /* Gallery */
+  .gallery-images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .gallery-images img {
+    width: 30%;
+    border: 2px solid #444;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .gallery-images img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Contact Form */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #444;
+    border-radius: 5px;
+    background: #222;
+    color: #eaeaea;
+  }
+  
+  form button {
+    background: #ff6347;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  form button:hover {
+    background: #d9534f;
+  }
+  
+  /* Footer */
+  .castle-footer {
+    background: #333;
+    color: #eaeaea;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 2px solid #444;
+  }
+  
